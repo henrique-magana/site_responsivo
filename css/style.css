@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto:wght@700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.center{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+
+.menu{
+    text-align: right;
+    width: 80%;
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+.menu .btn_menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.menu .btn_menu:hover{
+    background-color: #124265;
+    color: #fff;
+}
+
+/*section main*/
+
+section.main{
+    background-image: url('../img/fundo.jpg');
+    padding: 70px 0;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0 ;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    margin: 10px 0;
+    font-size: 19px;
+}
+
+.main__cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial_single{
+    background-color: #fff;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.diferencial_single i{
+    color: #124265;
+}
+
+.diferencial_single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial_single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+
+.chamada_sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada_sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada_sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo_sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo_sobre p{
+    margin: 0 20px;
+    width: 45%;
+}
+
+
+.rodape{
+    border: 1px solid #000;
+    width: 100%;
+    height: 60px;
+}
+
+.logo_rodape{
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+footer{
+    background-color: #124265;
+}
+
+
+@media screen and (max-width: 768px){
+    .diferencial_single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .conteudo_sobre p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
